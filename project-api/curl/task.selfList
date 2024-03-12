@@ -1,0 +1,6 @@
+curl --location --request POST 'http://localhost/project/task/selfList' \
+--header 'Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDk3MTEyMTksInRva2VuIjoiMTAwMCJ9.1DfmALMTfAo8v5v0l84wP9_WzI6FpxWk09qYo0tsdFA' \
+--form 'page=1' \
+--form 'pageSize=10' \
+--form 'taskType=1' \
+--form 'type=0'
